@@ -1,0 +1,8 @@
+package com.example.demo.exception;
+
+public class DuplicateAddressException extends RuntimeException {
+	public DuplicateAddressException(String message) {
+		super(message);
+	}
+}
+
